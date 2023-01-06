@@ -1,3 +1,13 @@
 body {
-    background-color: silver;
+    background-color: #F7F8FA;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav__list {
+    display: flex;
 }
