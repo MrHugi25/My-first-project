@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,17 +12,19 @@
 </head>
 <body>
 
-    
+    <!-- <img src="./img/Electronic Store – 1601.jpg" alt="" class="bg"> -->
 
-    <section class="header">
+    <!-- header nav -->
+    <section class="header">        
         <div class="container">
+                        
             <div class="header__nav">
                 
-                <div class="header-right-items">
+                <div class="header-left-items">
                     
                     <a href="#" class="nav_burger">
-                        <svg width="18" height="12" viewBox="0 0 18 12" fill="#C3CAD9">
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12H17C17.55 12 18 11.55 18 11C18 10.45 17.55 10 17 10H1C0.45 10 0 10.45 0 11C0 11.55 0.45 12 1 12ZM1 7H17C17.55 7 18 6.55 18 6C18 5.45 17.55 5 17 5H1C0.45 5 0 5.45 0 6C0 6.55 0.45 7 1 7ZM0 1C0 1.55 0.45 2 1 2H17C17.55 2 18 1.55 18 1C18 0.45 17.55 0 17 0H1C0.45 0 0 0.45 0 1Z" />
+                        <svg width="18" height="12" viewBox="0 0 18 12" >
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12H17C17.55 12 18 11.55 18 11C18 10.45 17.55 10 17 10H1C0.45 10 0 10.45 0 11C0 11.55 0.45 12 1 12ZM1 7H17C17.55 7 18 6.55 18 6C18 5.45 17.55 5 17 5H1C0.45 5 0 5.45 0 6C0 6.55 0.45 7 1 7ZM0 1C0 1.55 0.45 2 1 2H17C17.55 2 18 1.55 18 1C18 0.45 17.55 0 17 0H1C0.45 0 0 0.45 0 1Z" />
                         </svg>
                     </a>
                     
@@ -31,14 +32,20 @@
                     
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#"><p class="nav-link__text">Today’s Deals</p>                            </a>
-                            <a href="#" class="nav-link__arrow"> <svg width="12" height="7" viewBox="0 0 12 7" fill="#C3CAD9" >
+                            <a href="#">
+                                <p class="nav-link__text">Today’s Deals</p>
+                            </a>
+                            <a href="#" class="nav-link__arrow"> 
+                                <svg  width="12" height="7" viewBox="0 0 12 7" >
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.04598 0.2925L5.92598 4.1725L9.80598 0.2925C10.196 -0.0975 10.826 -0.0975 11.216 0.2925C11.606 0.6825 11.606 1.3125 11.216 1.7025L6.62598 6.2925C6.23598 6.6825 5.60598 6.6825 5.21598 6.2925L0.625982 1.7025C0.438729 1.51567 0.333496 1.26202 0.333496 0.9975C0.333496 0.732982 0.438729 0.479331 0.625982 0.2925C1.01598 -0.0875 1.65598 -0.0975 2.04598 0.2925Z"/>
-                                </svg></a>
+                                </svg>
+                            </a>
                         </li>
                         <li class="nav__item">
-                            <a href="#"><p class="nav-link__text">Best Sellers</p>                            </a>
-                            <a href="#" class="nav-link__arrow"> <svg width="12" height="7" viewBox="0 0 12 7" fill="#C3CAD9" >
+                            <a href="#">
+                                <p class="nav-link__text">Best Sellers</p>
+                            </a>
+                            <a href="#" class="nav-link__arrow"> <svg width="12" height="7" viewBox="0 0 12 7">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M2.04598 0.2925L5.92598 4.1725L9.80598 0.2925C10.196 -0.0975 10.826 -0.0975 11.216 0.2925C11.606 0.6825 11.606 1.3125 11.216 1.7025L6.62598 6.2925C6.23598 6.6825 5.60598 6.6825 5.21598 6.2925L0.625982 1.7025C0.438729 1.51567 0.333496 1.26202 0.333496 0.9975C0.333496 0.732982 0.438729 0.479331 0.625982 0.2925C1.01598 -0.0875 1.65598 -0.0975 2.04598 0.2925Z"/>
                                 </svg></a>
                         </li>
@@ -54,15 +61,15 @@
                 
                 </div>
 
-                <div class="header-left-items">
+                <div class="header-right-items">
 
                     <div class="search-box">
-                        <span href="#" class="search-btn">
+                        <a href="#" class="search-btn">
                             <svg width="18" height="18" viewBox="0 0 18 18">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1671 11.0006H12.3771L12.0971 10.7306C13.2971 9.33063 13.9171 7.42063 13.5771 5.39063C13.1071 2.61063 10.7871 0.390626 7.98713 0.0506256C3.75713 -0.469374 0.19713 3.09063 0.717129 7.32063C1.05713 10.1206 3.27713 12.4406 6.05713 12.9106C8.08713 13.2506 9.99713 12.6306 11.3971 11.4306L11.6671 11.7106V12.5006L15.9171 16.7506C16.3271 17.1606 16.9971 17.1606 17.4071 16.7506C17.8171 16.3406 17.8171 15.6706 17.4071 15.2606L13.1671 11.0006ZM7.16713 11.0006C4.67713 11.0006 2.66713 8.99063 2.66713 6.50063C2.66713 4.01063 4.67713 2.00063 7.16713 2.00063C9.65713 2.00063 11.6671 4.01063 11.6671 6.50063C11.6671 8.99063 9.65713 11.0006 7.16713 11.0006Z"/>
                             </svg>
-                        </span>
-                        <input type="text" class="search-input" placeholder="Search Goods ...">
+                        </a>
+                        <input type="text" class="search-input" placeholder="Search Goods...">
                     </div>
                     
                     <div class="header-account">
@@ -84,20 +91,316 @@
                     <div class="section"></div>
 
                 </div>
-                    
                 
-                    
-                
-
-
-            </div>
-            
+            </div>                        
         </div>
     </section>
+
+    <!-- section-header -->
+     <section class="section-header">
+            
+        <div class="container">
+            <div class="section-header-items">
+                <div class="title-block">
+                    <p class="title-subtext">NEW</p>
+                    <h1 class="title-text">Hypermarket Electronics</h1>
+                </div>
     
-   
+                <div class="subscribe-form">
+                    <div class="subscribe-form-input">
+                        <span class="icon-mail">
+                            <svg width="20" height="16" viewBox="0 0 20 16">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M18 0H2C0.9 0 0 0.9 0 2V14C0 15.1 0.9 16 2 16H18C19.1 16 20 15.1 20 14V2C20 0.9 19.1 0 18 0ZM17.6 4.25L11.06 8.34C10.41 8.75 9.59 8.75 8.94 8.34L2.4 4.25C2.15 4.09 2 3.82 2 3.53C2 2.86 2.73 2.46 3.3 2.81L10 7L16.7 2.81C17.27 2.46 18 2.86 18 3.53C18 3.82 17.85 4.09 17.6 4.25Z"/>
+                            </svg>
+                        </span>
+                        <input class="input-mail" type="email" placeholder="Your Mail">
+                    </div>
+                    <input class="input-btn" type="submit" value="Subscribe">
+                </div>
+
+            </div>            
+
+        </div>             
+
+    </section>
+
+    <!-- section-promo -->
+    <section class="section-promo">
+        <div class="container">
+            
+            <div class="section-promo__items">
+                
+                <!-- SliverBigBlock -->
+                <div class="promo_item-big promo-silver with-bg-big">
+                    
+                    <div class="promo-head">
+                        <div class="promo-menu-btn">
+                            <svg width="18" height="12" viewBox="0 0 18 12" >
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12H17C17.55 12 18 11.55 18 11C18 10.45 17.55 10 17 10H1C0.45 10 0 10.45 0 11C0 11.55 0.45 12 1 12ZM1 7H17C17.55 7 18 6.55 18 6C18 5.45 17.55 5 17 5H1C0.45 5 0 5.45 0 6C0 6.55 0.45 7 1 7ZM0 1C0 1.55 0.45 2 1 2H17C17.55 2 18 1.55 18 1C18 0.45 17.55 0 17 0H1C0.45 0 0 0.45 0 1Z" />
+                            </svg>
+                        </div>
+
+                        <a href="#" class="btn-small">New iPad</a>
+                        
+                            
+                            <div class="promo-forward-btn">
+                                <svg width="18" height="15" viewBox="0 0 18 15">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8666 4.26666V0.533325L17.3999 7.06666L10.8666 13.6V9.77332C6.1999 9.77332 2.93324 11.2667 0.599903 14.5333C1.53324 9.86666 4.33324 5.19999 10.8666 4.26666V4.26666Z"/>
+                                </svg>
+                            </div>                    
+                    </div>
+
+                    <h2 class="promo-text">The New iPad</h2>
+                            
+                    <div class="promo-img">
+                        <img src="./img/promo_banners/prom_img1.png" alt="The New iPad">
+                    </div>
+                    
+                </div>
+
+                <!-- BlackBigBlock -->
+                <div class="promo_item-big promo-black">
+                    
+                    <div class="promo-head">
+                        <div class="promo-menu-btn promo-menu-btn-black">
+                            <svg width="18" height="12" viewBox="0 0 18 12" >
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12H17C17.55 12 18 11.55 18 11C18 10.45 17.55 10 17 10H1C0.45 10 0 10.45 0 11C0 11.55 0.45 12 1 12ZM1 7H17C17.55 7 18 6.55 18 6C18 5.45 17.55 5 17 5H1C0.45 5 0 5.45 0 6C0 6.55 0.45 7 1 7ZM0 1C0 1.55 0.45 2 1 2H17C17.55 2 18 1.55 18 1C18 0.45 17.55 0 17 0H1C0.45 0 0 0.45 0 1Z" />
+                            </svg>
+                        </div>                        
+                                              
+                            <div class="promo-forward-btn promo-forward-btn-black">
+                                <svg width="18" height="15" viewBox="0 0 18 15">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8666 4.26666V0.533325L17.3999 7.06666L10.8666 13.6V9.77332C6.1999 9.77332 2.93324 11.2667 0.599903 14.5333C1.53324 9.86666 4.33324 5.19999 10.8666 4.26666V4.26666Z"/>
+                                </svg>
+                            </div>                    
+                    </div>
+
+                    <div class="promo-black-block">                        
+
+                        <div class="black-block-img">
+                            <img  src="./img/promo_banners/prom_img2.png" alt="Air pods">
+
+                        </div>                        
+                        
+                        <div class="black-block-text">
+                            <a href="#" class="btn-small">NEW</a>
+                            <h2 class="promo-text">The New iPad</h2>
+                            <p class="promo-description">Magic like you’ve never heard.</p>
+                            
+                            <div class="block-links">
+                                <a href="#" class="block-link">Learn More</a>
+                                <a href="#" class="block-link">Buy</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- BlackSmallBlock -->
+                <div class="promo_item-small promo-black">
+                    
+                    <div class="promo-head">
+                        <div class="promo-menu-btn promo-menu-btn-black">
+                            <svg width="18" height="12" viewBox="0 0 18 12" >
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12H17C17.55 12 18 11.55 18 11C18 10.45 17.55 10 17 10H1C0.45 10 0 10.45 0 11C0 11.55 0.45 12 1 12ZM1 7H17C17.55 7 18 6.55 18 6C18 5.45 17.55 5 17 5H1C0.45 5 0 5.45 0 6C0 6.55 0.45 7 1 7ZM0 1C0 1.55 0.45 2 1 2H17C17.55 2 18 1.55 18 1C18 0.45 17.55 0 17 0H1C0.45 0 0 0.45 0 1Z" />
+                            </svg>
+                        </div>                        
+                                              
+                        <div class="promo-forward-btn promo-forward-btn-black">
+                            <svg width="18" height="15" viewBox="0 0 18 15">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8666 4.26666V0.533325L17.3999 7.06666L10.8666 13.6V9.77332C6.1999 9.77332 2.93324 11.2667 0.599903 14.5333C1.53324 9.86666 4.33324 5.19999 10.8666 4.26666V4.26666Z"/>
+                            </svg>
+                        </div>                    
+                    </div>
+
+                    <div class="promo-small-black-block">
+                        <img src="./img/promo_banners/prom_img3.png" alt="Compare Thermostats" class="promo-small-img">
+                        <p class="promo-small-block-description">Compare Thermostats</p>
+                    </div>
+                    
+                </div>
+                
+                <!-- BlackSmallSilver -->
+                <div class="promo_item-small promo-silver with-bg-small">
+                    
+                    <div class="promo-head">
+                        <div class="promo-menu-btn promo-menu-btn-silver">
+                            <svg width="18" height="12" viewBox="0 0 18 12" >
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12H17C17.55 12 18 11.55 18 11C18 10.45 17.55 10 17 10H1C0.45 10 0 10.45 0 11C0 11.55 0.45 12 1 12ZM1 7H17C17.55 7 18 6.55 18 6C18 5.45 17.55 5 17 5H1C0.45 5 0 5.45 0 6C0 6.55 0.45 7 1 7ZM0 1C0 1.55 0.45 2 1 2H17C17.55 2 18 1.55 18 1C18 0.45 17.55 0 17 0H1C0.45 0 0 0.45 0 1Z" />
+                            </svg>
+                        </div>                        
+                                              
+                        <div class="promo-forward-btn promo-forward-btn-silver">
+                            <svg width="18" height="15" viewBox="0 0 18 15">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8666 4.26666V0.533325L17.3999 7.06666L10.8666 13.6V9.77332C6.1999 9.77332 2.93324 11.2667 0.599903 14.5333C1.53324 9.86666 4.33324 5.19999 10.8666 4.26666V4.26666Z"/>
+                            </svg>
+                        </div>                    
+                    </div>
+
+                    <div class="promo-small-black-block">
+                        <img src="./img/promo_banners/prom_img4.png" alt="Compare Thermostats" class="promo-small-img">
+                        <p class="promo-small-block-description">Google Stadia</p>
+                    </div>
+
+                </div>
+
+                <!-- BlackSmallBlock -->
+                <div class="promo_item-small promo-black">
+                    
+                    <div class="promo-head">
+                        <div class="promo-menu-btn promo-menu-btn-black">
+                            <svg width="18" height="12" viewBox="0 0 18 12" >
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 12H17C17.55 12 18 11.55 18 11C18 10.45 17.55 10 17 10H1C0.45 10 0 10.45 0 11C0 11.55 0.45 12 1 12ZM1 7H17C17.55 7 18 6.55 18 6C18 5.45 17.55 5 17 5H1C0.45 5 0 5.45 0 6C0 6.55 0.45 7 1 7ZM0 1C0 1.55 0.45 2 1 2H17C17.55 2 18 1.55 18 1C18 0.45 17.55 0 17 0H1C0.45 0 0 0.45 0 1Z" />
+                            </svg>
+                        </div>                        
+                                              
+                        <div class="promo-forward-btn promo-forward-btn-black">
+                            <svg width="18" height="15" viewBox="0 0 18 15">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.8666 4.26666V0.533325L17.3999 7.06666L10.8666 13.6V9.77332C6.1999 9.77332 2.93324 11.2667 0.599903 14.5333C1.53324 9.86666 4.33324 5.19999 10.8666 4.26666V4.26666Z"/>
+                            </svg>
+                        </div>                    
+                    </div>
+
+                    <div class="promo-small-black-block">
+                        <img src="./img/promo_banners/prom_img5.png" alt="Compare Thermostats" class="promo-small-img">
+                        <p class="promo-small-block-description">Galaxy Watch</p>
+                    </div>
+                    
+                </div>             
+                
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Section Products -->
+    <div class="section-products">
+        <div class="container">
+
+            <div class="title-block-center">
+                <p class="title-subtext">NEW</p>
+                <h1 class="title-text">Hypermarket Electronics</h1>
+            </div>
+
+            <div class="cards-wrapper">
+                
+                <!-- Black Card -->
+                <div class="card card-black card-bg-1">
+                    <img src="./img/products_img/product_1.png" alt="" class="product-img">
+                    <a href class="product-name name-accent-yellow">BLACK FRIDAY</a>
+                    <a href="#" class="product-description">Gamepad Xbox One X</a>
+                    <p class="product-price">$950.00</p>
+                </div>
+                
+                <!-- Black Card -->
+                <div class="card card-black card-bg-2">
+                    <img src="./img/products_img/product_2.png" alt="" class="product-img">
+                    <a href class="product-name">TABLETS</a>
+                    <a href="#" class="product-description">iPad Pro 11</a>
+                    <p class="product-price">$950.00</p>
+                </div>
+                
+                <!-- Black Card -->
+                <div class="card card-black card-bg-3">
+                    <img src="./img/products_img/product_3.png" alt="" class="product-img">
+                    <a href class="product-name">COMPUTERS</a>
+                    <a href="#" class="product-description">Pro Display XDR</a>
+                    <p class="product-price">$950.00</p>
+                </div>
+                
+                <!-- Black Card -->
+                <div class="card card-black card-bg-4">
+                    <img src="./img/products_img/product_4.png" alt="" class="product-img">
+                    <a href class="product-name">PHONES</a>
+                    <a href="#" class="product-description">iPhone 12</a>
+                    <p class="product-price">$950.00</p>
+                </div>
+
+
+                 <!-- Black White -->
+                 <div class="card card-white">
+                    <img src="./img/products_img/product_5.png" alt="" class="product-img">
+                    <a href class="product-name">PHONES</a>
+                    <a href="#" class="product-description">Samsung Galaxy s10</a>
+                    <p class="product-price price-white-card">$950.00</p>
+                </div>
+                 <!-- Black White -->
+                 <div class="card card-white">
+                    <img src="./img/products_img/product_6.png" alt="" class="product-img">
+                    <a href class="product-name">PHONES</a>
+                    <a href="#" class="product-description">Samsung TV U577</a>
+                    <p class="product-price price-white-card">$950.00</p>
+                </div>
+                 <!-- Black White -->
+                 <div class="card card-white">
+                    <img src="./img/products_img/product_7.png" alt="" class="product-img">
+                    <a href class="product-name">PHONES</a>
+                    <a href="#" class="product-description">Portable Speaker</a>
+                    <p class="product-price price-white-card">$950.00</p>
+                </div>
+                 <!-- Black White -->
+                 <div class="card card-white">
+                    <img src="./img/products_img/product_8.png" alt="" class="product-img">
+                    <a href class="product-name">PHONES</a>
+                    <a href="#" class="product-description">Microsoft Surface Studio</a>
+                    <p class="product-price price-white-card">$950.00</p>
+                </div>
+                
+
+            </div>
+        
+            
+
+        </div>
+
 
     </div>
+
+    <!-- Section Footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="footer-wrap">
+                <div class="footer-column">
+                    <a href="#" class="header__logo">Constructor</a>
+                    <p class="contacts">12 Water St. Vacouver, BC
+                        V6B 132 United States</p>
+                </div>
+
+                <div class="footer-column column-links">
+                    <a href="#" class="footer-link">Corporate sales</a>
+                    <a href="#" class="footer-link">Feedback</a>
+                    <a href="#" class="footer-link">Jobs</a>
+                    <a href="#" class="footer-link">News</a>
+                    <a href="#" class="footer-link">Sales Rules</a>
+                    <a href="#" class="footer-link">For partners</a>                
+                </div>
+                
+                <div class="footer-column column-links">
+                    <a href="#" class="footer-link">Bonus program</a>
+                    <a href="#" class="footer-link">Gift Сards</a>
+                    <a href="#" class="footer-link">Bill Payment Verification</a>
+                    <a href="#" class="footer-link">Loans</a>
+                    <a href="#" class="footer-link">Delivery</a>
+                    <a href="#" class="footer-link">Service centers</a>                
+                </div>
+                
+                <div class="footer-column column-links">
+                    <a href="#" class="footer-link">Bonus program</a>
+                    <a href="#" class="footer-link">Gift Сards</a>
+                    <a href="#" class="footer-link">Bill Payment Verification</a>
+                    <a href="#" class="footer-link">Loans</a>
+                    <a href="#" class="footer-link">Delivery</a>
+                    <a href="#" class="footer-link">Service centers</a>                
+                </div>
+
+                <div class="footer-column">
+                    <p class="copyright">2030 Comapny. All Rights Reserved.</p>
+                    <a href="#" class="copyright copyright-link">Terms & Conditions</a>
+                    <a href="#" class="copyright copyright-link">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </section>
     
 
 </body>
